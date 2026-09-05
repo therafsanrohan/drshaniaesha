@@ -31,7 +31,7 @@ export const Header = () => {
   return (
     <>
       <header className="fixed top-0 left-0 w-full z-50 pt-4 px-4 pointer-events-none">
-        <div className={`mx-auto max-w-5xl transition-all duration-500 ease-in-out pointer-events-auto rounded-full border ${isScrolled ? 'bg-surface/70 backdrop-blur-2xl border-border shadow-[0_8px_32px_rgba(0,0,0,0.5)]' : 'bg-transparent border-transparent'}`}>
+        <div className={`mx-auto max-w-5xl transition-all duration-500 ease-in-out pointer-events-auto rounded-full border backdrop-blur-2xl ${isScrolled ? 'bg-surface/70 border-border shadow-md' : 'bg-transparent border-transparent shadow-none'}`}>
           <div className="px-6 h-16 flex items-center justify-between">
             <Link href="/" className="text-2xl tracking-tight text-foreground flex items-center space-x-1.5" onClick={() => setIsMobileMenuOpen(false)}>
               <span className="font-black">DR.</span>
