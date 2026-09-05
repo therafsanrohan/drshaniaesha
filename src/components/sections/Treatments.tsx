@@ -1,27 +1,7 @@
 import { WhatsAppButton } from '../ui/WhatsAppButton';
-import { Sparkles, Droplets, Wind } from 'lucide-react';
+import { TREATMENTS } from '../../constants/data';
 
 export const Treatments = () => {
-  const treatments = [
-    {
-      id: "01",
-      icon: <Sparkles className="w-6 h-6 text-accent mb-6" />,
-      title: "Pigmentation & Tone",
-      description: "Personalised assessment and treatment planning for clearer, more balanced-looking skin."
-    },
-    {
-      id: "02",
-      icon: <Droplets className="w-6 h-6 text-accent mb-6" />,
-      title: "Acne Scars & Texture",
-      description: "Carefully selected aesthetic approaches tailored to skin condition, concerns, and recovery needs."
-    },
-    {
-      id: "03",
-      icon: <Wind className="w-6 h-6 text-accent mb-6" />,
-      title: "Hair Restoration",
-      description: "Professional consultation for hair and scalp concerns, with realistic and responsible guidance."
-    }
-  ];
 
   return (
     <section id="treatments" className="py-32 bg-background overflow-hidden relative border-t border-border/50">
@@ -33,7 +13,7 @@ export const Treatments = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {treatments.map((treatment, index) => (
+          {TREATMENTS.map((treatment, index) => (
             <div 
               key={treatment.id} 
               className={`bg-surface rounded-3xl p-10 border border-border flex flex-col group cursor-pointer active:scale-[0.99] hover:border-accent/30 transition-all duration-500 animate-fade-up delay-200 relative overflow-hidden`}

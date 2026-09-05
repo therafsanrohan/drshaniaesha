@@ -10,7 +10,7 @@ export const About = () => {
       <div className="container mx-auto px-6 max-w-6xl relative z-10">
         
         {/* Mind-blowing Header */}
-        <div className="flex flex-col md:flex-row justify-between items-end mb-24 animate-fade-up">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-24 animate-fade-up">
           <div className="max-w-2xl">
             <span className="text-accent font-bold tracking-widest uppercase text-sm mb-4 block">About the Doctor</span>
             <h2 className="text-5xl md:text-7xl font-bold tracking-tighter text-foreground leading-tight">
@@ -71,7 +71,7 @@ export const About = () => {
         </div>
 
         {/* Bottom Wide Card */}
-        <div className="mt-6 w-full bg-surface border border-border/50 rounded-[2rem] p-10 md:p-16 flex flex-col md:flex-row items-center justify-between group overflow-hidden relative shadow-2xl cursor-pointer active:scale-[0.99]">
+        <div className="mt-6 w-full bg-surface border border-border/50 rounded-[2rem] p-10 md:p-16 flex flex-col md:flex-row items-start md:items-center justify-between group overflow-hidden relative shadow-2xl cursor-pointer active:scale-[0.99]">
           <div className="absolute inset-0 bg-gradient-to-r from-accent/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
           
           <div className="relative z-10 mb-8 md:mb-0 max-w-xl">

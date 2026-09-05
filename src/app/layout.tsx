@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="flex min-h-full flex-col font-sans selection:bg-surface-hover selection:text-foreground">
+      <body className="flex min-h-full flex-col font-sans selection:bg-surface-hover selection:text-foreground overflow-x-hidden">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
         </ThemeProvider>
