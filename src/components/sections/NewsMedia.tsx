@@ -15,7 +15,7 @@ export const NewsMedia = () => {
           {NEWS_MEDIA.map((item) => (
             <div 
               key={item.id} 
-              className="bg-surface rounded-3xl p-6 border border-border flex flex-col group hover:border-accent/30 transition-all duration-500 hover:-translate-y-2 hover:shadow-xl animate-fade-up delay-200 overflow-hidden"
+              className="bg-surface rounded-3xl p-6 border border-border flex flex-col group hover:border-accent/30 transition-all duration-500 hover:-translate-y-2 hover:shadow-xl animate-fade-up  overflow-hidden"
             >
               {/* Image Placeholder */}
               <div className="w-full h-48 rounded-2xl bg-gradient-to-tr from-surface-hover to-accent/5 mb-6 overflow-hidden relative flex items-center justify-center">

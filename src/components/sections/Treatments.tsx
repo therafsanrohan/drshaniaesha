@@ -16,7 +16,7 @@ export const Treatments = () => {
           {TREATMENTS.map((treatment, index) => (
             <div 
               key={treatment.id} 
-              className={`bg-surface rounded-3xl p-10 border border-border flex flex-col group cursor-pointer active:scale-[0.99] hover:border-accent/30 transition-all duration-500 animate-fade-up delay-200 relative overflow-hidden`}
+              className={`bg-surface rounded-3xl p-10 border border-border flex flex-col group cursor-pointer active:scale-[0.99] hover:border-accent/30 transition-all duration-500 animate-fade-up  relative overflow-hidden`}
             >
               {/* Inner immersive glow */}
               <div className="absolute inset-0 bg-gradient-to-tr from-accent/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-opacity duration-700"></div>

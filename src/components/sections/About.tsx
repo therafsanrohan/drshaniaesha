@@ -40,7 +40,7 @@ export const About = () => {
               </div>
               <div>
                 <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-4 group-hover:translate-x-2 transition-transform duration-500">Holistic Care Approach</h3>
-                <p className="text-lg text-text-secondary max-w-xl group-hover:translate-x-2 transition-transform duration-500 delay-75">
+                <p className="text-lg text-text-secondary max-w-xl group-hover:translate-x-2 transition-transform duration-500 ">
                   Every treatment journey begins with deeply understanding your individual concern, followed by a clear, responsible, and highly personalized medical plan. No shortcuts, just pure science.
                 </p>
               </div>
