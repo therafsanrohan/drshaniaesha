@@ -72,8 +72,7 @@ html {
 }
 
 .animate-fade-up {
-  animation: fadeUp 0.4s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  opacity: 0;
+  animation: fadeUp 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -82,5 +81,11 @@ html {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+  
+  .animate-fade-up {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
   }
 }
