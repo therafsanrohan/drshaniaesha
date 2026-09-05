@@ -10,7 +10,7 @@ export const About = () => {
       <div className="container mx-auto px-6 max-w-6xl relative z-10">
         
         {/* Mind-blowing Header */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-24 ">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-24 animate-fade-up">
           <div className="max-w-2xl">
             <span className="text-accent font-bold tracking-widest uppercase text-sm mb-4 block">About the Doctor</span>
             <h2 className="text-5xl md:text-7xl font-bold tracking-tighter text-foreground leading-tight">
@@ -40,7 +40,7 @@ export const About = () => {
               </div>
               <div>
                 <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-4 group-hover:translate-x-2 transition-transform duration-500">Holistic Care Approach</h3>
-                <p className="text-lg text-text-secondary max-w-xl group-hover:translate-x-2 transition-transform duration-500 ">
+                <p className="text-lg text-text-secondary max-w-xl group-hover:translate-x-2 transition-transform duration-500 delay-75">
                   Every treatment journey begins with deeply understanding your individual concern, followed by a clear, responsible, and highly personalized medical plan. No shortcuts, just pure science.
                 </p>
               </div>

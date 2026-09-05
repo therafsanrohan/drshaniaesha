@@ -5,7 +5,7 @@ export const NewsMedia = () => {
   return (
     <section id="news" className="py-32 bg-background border-t border-border/50">
       <div className="container mx-auto px-6 max-w-5xl">
-        <div className="mb-20 ">
+        <div className="mb-20 animate-fade-up">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tighter text-foreground mb-6">
             Beyond the clinic.
           </h2>
@@ -15,7 +15,7 @@ export const NewsMedia = () => {
           {NEWS_MEDIA.map((item) => (
             <div 
               key={item.id} 
-              className="bg-surface rounded-3xl p-6 border border-border flex flex-col group hover:border-accent/30 transition-all duration-500 hover:-translate-y-2 hover:shadow-xl   overflow-hidden"
+              className="bg-surface rounded-3xl p-6 border border-border flex flex-col group hover:border-accent/30 transition-all duration-500 hover:-translate-y-2 hover:shadow-xl animate-fade-up delay-200 overflow-hidden"
             >
               {/* Image Placeholder */}
               <div className="w-full h-48 rounded-2xl bg-gradient-to-tr from-surface-hover to-accent/5 mb-6 overflow-hidden relative flex items-center justify-center">

@@ -6,7 +6,7 @@ export const Treatments = () => {
   return (
     <section id="treatments" className="py-32 bg-background overflow-hidden relative border-t border-border/50">
       <div className="container mx-auto px-6 max-w-5xl">
-        <div className="mb-20 ">
+        <div className="mb-20 animate-fade-up">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tighter text-foreground mb-6">
             Advanced treatments.<br/>Natural results.
           </h2>
@@ -16,7 +16,7 @@ export const Treatments = () => {
           {TREATMENTS.map((treatment, index) => (
             <div 
               key={treatment.id} 
-              className={`bg-surface rounded-3xl p-10 border border-border flex flex-col group cursor-pointer active:scale-[0.99] hover:border-accent/30 transition-all duration-500   relative overflow-hidden`}
+              className={`bg-surface rounded-3xl p-10 border border-border flex flex-col group cursor-pointer active:scale-[0.99] hover:border-accent/30 transition-all duration-500 animate-fade-up delay-200 relative overflow-hidden`}
             >
               {/* Inner immersive glow */}
               <div className="absolute inset-0 bg-gradient-to-tr from-accent/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-opacity duration-700"></div>
