@@ -15,13 +15,13 @@ export const Hero = () => {
         
         {/* Text Content (Left) - Centered Vertically */}
         <div className="w-full lg:w-[55%] flex flex-col items-center lg:items-start justify-center text-center lg:text-left z-20 py-10 lg:py-24">
-          <h1 className="animate-fade-up delay-100 text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-bold tracking-tighter text-foreground mb-8 leading-[1.05]">
+          <h1 className="animate-fade-up text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-bold tracking-tighter text-foreground mb-8 leading-[1.05]">
             Aesthetic care.<br />Redefined.
           </h1>
-          <p className="animate-fade-up delay-200 text-lg md:text-xl text-text-secondary font-medium tracking-tight max-w-lg mb-10">
+          <p className="animate-fade-up delay-75 text-lg md:text-xl text-text-secondary font-medium tracking-tight max-w-lg mb-10">
             Consultation-led treatments for skin and hair. Delivered with absolute precision and a human touch.
           </p>
-          <div className="animate-fade-up delay-300">
+          <div className="animate-fade-up delay-100">
             <WhatsAppButton text="Start a Consultation" variant="primary" />
           </div>
         </div>
@@ -32,10 +32,10 @@ export const Hero = () => {
           <div className="relative w-full max-w-[350px] md:max-w-md lg:max-w-[450px] h-[100%] lg:h-[80vh] flex items-end">
             
             {/* Creative Backdrop Element (Glowing Arch) - Flush with the bottom */}
-            <div className="absolute bottom-0 left-0 w-full h-[85%] bg-gradient-to-t from-accent/10 to-transparent rounded-t-full border-t border-x border-accent/20 shadow-[0_0_50px_rgba(0,0,0,0.05)] -z-10 animate-fade-up delay-400"></div>
+            <div className="absolute bottom-0 left-0 w-full h-[85%] bg-gradient-to-t from-accent/10 to-transparent rounded-t-full border-t border-x border-accent/20 shadow-[0_0_50px_rgba(0,0,0,0.05)] -z-10 animate-fade-up delay-75"></div>
 
             {/* The Doctor Image */}
-            <div className="relative w-full h-full z-10 animate-fade-up delay-500">
+            <div className="relative w-full h-full z-10 animate-fade-up delay-100">
               <Image 
                 src="/images/hero-banner.png" 
                 alt="Dr. Shania Shamsun Esha" 
@@ -46,7 +46,7 @@ export const Hero = () => {
             </div>
 
             {/* Floating Glassmorphic Badge 1 (Shoulder level) */}
-            <div className="absolute top-[35%] md:top-[40%] lg:top-[30%] left-2 md:-left-4 lg:-left-12 bg-surface/90 backdrop-blur-md border border-border p-2 md:p-3 lg:p-4 rounded-2xl shadow-xl flex items-center space-x-2 md:space-x-3 animate-fade-up delay-[600ms] z-20">
+            <div className="absolute top-[35%] md:top-[40%] lg:top-[30%] left-2 md:-left-4 lg:-left-12 bg-surface/90 backdrop-blur-md border border-border p-2 md:p-3 lg:p-4 rounded-2xl shadow-xl flex items-center space-x-2 md:space-x-3 animate-fade-up delay-150 z-20">
               <div className="w-6 h-6 md:w-8 md:h-8 rounded-full bg-accent/10 flex items-center justify-center text-accent shrink-0">
                 <svg className="w-3 h-3 md:w-4 md:h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
@@ -59,7 +59,7 @@ export const Hero = () => {
             </div>
 
             {/* Floating Glassmorphic Badge 2 */}
-            <div className="absolute bottom-[20%] right-2 lg:-right-4 bg-surface/90 backdrop-blur-md border border-border p-3 lg:p-4 rounded-2xl shadow-xl flex items-center space-x-3 animate-fade-up delay-[700ms] z-20">
+            <div className="absolute bottom-[20%] right-2 lg:-right-4 bg-surface/90 backdrop-blur-md border border-border p-3 lg:p-4 rounded-2xl shadow-xl flex items-center space-x-3 animate-fade-up delay-200 z-20">
               <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center text-accent">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
