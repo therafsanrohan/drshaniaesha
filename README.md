@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dr. Shania Shamsun Esha
 
-## Getting Started
+A refined, responsive professional portfolio website for **Dr. Shania Shamsun Esha**, Aesthetic Doctor at Este Medical Bangladesh.
 
-First, run the development server:
+The website is designed to present her professional profile, treatment focus areas, media appearances, and a simple WhatsApp-based consultation journey.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Highlights
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Premium, modern aesthetic medicine website
+- Fully responsive for mobile, tablet, laptop, and desktop
+- Professional hero section featuring Dr. Shania’s portrait
+- Treatment focus areas:
+  - Hyperpigmentation and uneven skin tone
+  - Acne scars and skin texture
+  - Hair fall and hair growth concerns
+- Dedicated News & Media section
+- WhatsApp-based consultation booking
+- Clean, accessible, patient-first user experience
+- Helvetica Neue-based visual system
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Professional Profile
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Dr. Shania Shamsun Esha is an Aesthetic Doctor at Este Medical Bangladesh.
 
-## Learn More
+**Credentials**
 
-To learn more about Next.js, take a look at the following resources:
+- MBBS
+- AAAM-1
+- CPD Certified in Aesthetic Medicine
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Media Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Boishakhi Health, Boishakhi TV
+- Incredible Women, Radio Carnival Facebook Live
 
-## Deploy on Vercel
+## Booking Flow
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The website does not use a database or automated booking system at this stage.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Patients can start a consultation directly through WhatsApp using pre-filled booking messages. This keeps the process personal, quick, and easy for both the patient and clinic team.
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Responsive UI design
+- WhatsApp click-to-chat integration
+
+## Important Notes
+
+- Replace the placeholder WhatsApp number with the official clinic booking number.
+- Use only approved professional photographs and verified medical information.
+- Do not add unverified treatment claims, patient testimonials, results, statistics, or credentials.
+
+## License
+
+All rights reserved. This project and its content are intended exclusively for Dr. Shania Shamsun Esha.

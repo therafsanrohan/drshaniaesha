@@ -1,11 +1,14 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig: NextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
   },
-  basePath: process.env.GITHUB_ACTIONS ? '/drshaniaesha' : '',
+  basePath: isProd ? '/drshaniaesha' : '',
+  assetPrefix: isProd ? '/drshaniaesha/' : '',
   // Note: Security headers and Middleware are not supported in static exports (GitHub Pages)
 };
 
