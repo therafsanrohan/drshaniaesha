@@ -1,16 +1,6 @@
+import { NEWS_MEDIA } from '../../constants/data';
+
 export const NewsMedia = () => {
-  const mediaItems = [
-    {
-      category: "TELEVISION",
-      title: "Boishakhi Health",
-      description: "Health and beauty conversations presented for a wider public audience on Boishakhi TV."
-    },
-    {
-      category: "LIVE CONVERSATION",
-      title: "Incredible Women",
-      description: "Featured on Radio Carnival Facebook Live, sharing perspectives on confidence, beauty, and modern wellbeing."
-    }
-  ];
 
   return (
     <section id="news" className="py-32 bg-background border-t border-border/50">
@@ -22,7 +12,7 @@ export const NewsMedia = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {mediaItems.map((item) => (
+          {NEWS_MEDIA.map((item) => (
             <div 
               key={item.id} 
               className="bg-surface rounded-3xl p-6 border border-border flex flex-col group hover:border-accent/30 transition-all duration-500 hover:-translate-y-2 hover:shadow-xl animate-fade-up delay-200 overflow-hidden"

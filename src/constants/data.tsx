@@ -45,3 +45,20 @@ export const CONSULTATION_STEPS = [
     icon: <MapPin className="w-5 h-5 text-accent" /> 
   }
 ];
+
+export const NEWS_MEDIA = [
+  {
+    id: "news-1",
+    platform: "TV Interview",
+    category: "TELEVISION",
+    title: "Boishakhi Health",
+    description: "Health and beauty conversations presented for a wider public audience on Boishakhi TV."
+  },
+  {
+    id: "news-2",
+    platform: "Facebook Live",
+    category: "LIVE CONVERSATION",
+    title: "Incredible Women",
+    description: "Featured on Radio Carnival Facebook Live, sharing perspectives on confidence, beauty, and modern wellbeing."
+  }
+];
