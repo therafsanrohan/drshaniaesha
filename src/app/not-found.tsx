@@ -4,7 +4,7 @@ import { WhatsAppButton } from '@/components/ui/WhatsAppButton';
 export default function NotFound() {
   return (
     <div className="min-h-[80vh] flex flex-col items-center justify-center bg-background px-6">
-      <div className="max-w-md w-full text-center space-y-8 animate-fade-up">
+      <div className="max-w-md w-full text-center space-y-8 ">
         {/* Simple Graphic */}
         <div className="mx-auto w-24 h-24 rounded-full bg-accent/10 flex items-center justify-center text-accent mb-8">
           <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">

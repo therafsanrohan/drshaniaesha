@@ -5,13 +5,13 @@ export const FinalCTA = () => {
     <section className="py-40 bg-background border-t border-border/50 relative overflow-hidden flex justify-center text-center">
       <div className="container mx-auto px-6 z-10">
         <div className="max-w-3xl mx-auto flex flex-col items-center">
-          <h2 className="text-5xl md:text-7xl font-bold tracking-tighter text-foreground mb-8 animate-fade-up">
+          <h2 className="text-5xl md:text-7xl font-bold tracking-tighter text-foreground mb-8 ">
             Start with a conversation.
           </h2>
-          <p className="text-xl text-text-secondary font-medium tracking-tight mb-12 max-w-xl animate-fade-up ">
+          <p className="text-xl text-text-secondary font-medium tracking-tight mb-12 max-w-xl  ">
             For consultation requests, treatment questions, or availability, message Dr. Shania’s team directly.
           </p>
-          <div className="animate-fade-up ">
+          <div className=" ">
             <WhatsAppButton text="Book Consultation" variant="primary" />
           </div>
         </div>

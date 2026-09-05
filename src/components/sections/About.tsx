@@ -10,7 +10,7 @@ export const About = () => {
       <div className="container mx-auto px-6 max-w-6xl relative z-10">
         
         {/* Mind-blowing Header */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-24 animate-fade-up">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-24 ">
           <div className="max-w-2xl">
             <span className="text-accent font-bold tracking-widest uppercase text-sm mb-4 block">About the Doctor</span>
             <h2 className="text-5xl md:text-7xl font-bold tracking-tighter text-foreground leading-tight">

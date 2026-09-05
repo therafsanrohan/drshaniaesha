@@ -59,33 +59,12 @@ html {
   scroll-padding-top: 120px;
 }
 
-/* Base Animations */
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fade-up {
-  animation: fadeUp 0.15s ease-out both;
-}
-
+/* Animations disabled for absolute maximum performance */
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
-  }
-  
-  .animate-fade-up {
-    animation: none !important;
-    opacity: 1 !important;
-    transform: none !important;
   }
 }
