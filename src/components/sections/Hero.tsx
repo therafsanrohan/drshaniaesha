@@ -41,6 +41,7 @@ export const Hero = () => {
                 alt="Dr. Shania Shamsun Esha" 
                 fill
                 priority
+                fetchPriority="high"
                 className="object-contain object-bottom drop-shadow-[0_20px_40px_rgba(0,0,0,0.15)] dark:drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)]"
               />
             </div>
