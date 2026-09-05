@@ -56,7 +56,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="flex min-h-full flex-col font-sans selection:bg-surface-hover selection:text-foreground overflow-x-hidden">
+      <body className="flex min-h-full flex-col font-sans selection:bg-surface-hover selection:text-foreground">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
         </ThemeProvider>
