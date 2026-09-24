@@ -7,6 +7,13 @@ export const NAV_LINKS = [
   { name: 'News', href: '#news' },
 ];
 
+export const SOCIAL_LINKS = {
+  linkedin: "https://www.linkedin.com/in/drshaniaesha/",
+  facebook: "https://www.facebook.com/drshaniaesha",
+  instagram: "https://www.instagram.com/dr.shania.esha",
+  youtube: "https://www.youtube.com/@drshaniaesha",
+};
+
 export const TREATMENTS = [
   {
     id: "01",

@@ -1,7 +1,6 @@
 import { CONSULTATION_STEPS } from '../../constants/data';
 
 export const ConsultationJourney = () => {
-
   return (
     <section className="py-32 bg-background border-t border-border/50">
       <div className="container mx-auto px-6 max-w-4xl">
